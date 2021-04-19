@@ -1,1 +1,7 @@
-msg: api-gateway
+spring:
+  application:
+    name: api-gateway
+  profiles:
+    active: dev
+server:
+  port: 8081
