@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: service1
+server:
+  port: 8061
+
+security:
+ oauth2:
+  resource:
+    userInfoUri: http://localhost:8080/authorization-service/user
