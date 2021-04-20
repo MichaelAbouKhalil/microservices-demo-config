@@ -22,7 +22,7 @@ spring:
     url: jdbc:postgresql://localhost:5555/microservice-demo-auth
     username: admin
     password: password
-    driver-class-name: org.postgresql.Driver
+    driverClassName: org.postgresql.Driver
     initialize: true
   jpa:
     hibernate:
