@@ -9,6 +9,9 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka
       
+jwt:
+  secret: shushhIamSecret
+      
 security:
  oauth2:
   resource:
