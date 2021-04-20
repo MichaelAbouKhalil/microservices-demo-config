@@ -1,8 +1,22 @@
+server:
+  port: 8060
+
 spring:
   application:
     name: authorization-service
-server:
-  port: 8060
+  datasource:
+    url: jdbc:postgresql://localhost:5555/microservice-demo-auth
+    username: admin
+    password: password
+    driverClassName: org.postgresql.Driver
+    initialize: true
+  jpa:
+    hibernate:
+      dialect: org.hibernate.dialect.PostgreSQLDialect
+      ddl-auto: update
+    generate-ddl: true
+    show-sql: true
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
 
 eureka:
   client:
