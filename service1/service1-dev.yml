@@ -11,8 +11,3 @@ eureka:
       
 jwt:
   secret: shushhIamSecret
-      
-security:
- oauth2:
-  resource:
-    userInfoUri: http://localhost:8080/authorization-service/user
