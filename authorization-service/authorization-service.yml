@@ -12,7 +12,7 @@ spring:
   jpa:
     hibernate:
       dialect: org.hibernate.dialect.PostgreSQLDialect
-      ddl-auto: update
+      ddl-auto: create
     generate-ddl: true
     show-sql: true
     database-platform: org.hibernate.dialect.PostgreSQLDialect
