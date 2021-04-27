@@ -3,9 +3,9 @@ server:
 
 spring:
   application:
-    name: auth-service
+    name: authorization-service
   datasource:
-    url: jdbc:postgresql://localhost:5555/trackme-auth-db
+    url: jdbc:postgresql://localhost:5555/microservice-demo-auth
     username: admin
     password: password
     driverClassName: org.postgresql.Driver
